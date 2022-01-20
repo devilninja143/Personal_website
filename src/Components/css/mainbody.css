@@ -1,0 +1,160 @@
+@media screen and (max-width: 720px) {
+  #main_body {
+    height: 100% !important;
+    width: 100% !important;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(55%, #e6dace), color-stop(55%, #fff)) !important;
+    background: linear-gradient(0deg, #e6dace 55%, #fff 55%) !important;
+  }
+  #main_body #intro_card {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    width: 90% !important;
+    margin-top: 20px !important;
+    border-radius: 15px !important;
+  }
+  #main_body #intro_card .intro_1st {
+    padding: 20px 0px;
+    border: 15px !important;
+    margin: auto !important;
+    width: 100% !important;
+  }
+  #main_body #intro_card .intro_2nd {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+
+#main_body {
+  margin-top: 100px;
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(40%, #e6dace), color-stop(40%, #fff));
+  background: linear-gradient(90deg, #e6dace 40%, #fff 40%);
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main_body #intro_card {
+  width: 700px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#main_body #intro_card .intro_1st {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  background: #f4ece6;
+  -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.116);
+          box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.116);
+}
+
+#main_body #intro_card .intro_1st img {
+  border-radius: 50%;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+
+#main_body #intro_card .intro_1st .my_name {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+#main_body #intro_card .intro_1st .my_name .hr {
+  background: var(--bs-primary);
+  content: "";
+  height: 2px;
+  width: 70px;
+  margin: auto;
+}
+
+#main_body #intro_card .intro_1st .my_job {
+  font-size: 21px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  padding-bottom: 30px !important;
+}
+
+#main_body #intro_card .intro_1st .contact {
+  background: #fff;
+}
+
+#main_body #intro_card .intro_1st .contact a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  padding: 20px;
+}
+
+#main_body #intro_card .intro_2nd {
+  margin: 20px;
+}
+
+#main_body #intro_card .intro_2nd .big-txt {
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+#main_body #intro_card .intro_2nd .intro-txt {
+  font-size: 19px;
+  padding: 20px 0px;
+}
+
+#main_body #intro_card .intro_2nd .intro-desc {
+  padding: 20px 0px;
+  font-weight: 30;
+  font-size: 14px;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn {
+  padding: 30px 0px;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn a {
+  padding: 2px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn .btn-1 {
+  background-color: var(--bs-primary);
+  color: #fff;
+  margin-right: 10px;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn .btn-1:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn .btn-2 {
+  color: #000;
+  border: #000 solid;
+}
+
+#main_body #intro_card .intro_2nd .intro-btn .btn-2:hover {
+  color: #fff;
+  border: var(--bs-primary) solid;
+}
+/*# sourceMappingURL=mainbody.css.map */

@@ -1,0 +1,25 @@
+#project_body {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background: #e6dace;
+}
+
+#project_body #project_body_label {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#project_body .project_body_paragraph {
+  text-align: center;
+  font-weight: bold;
+}
+
+#project_body .info_card {
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, var(--bs-primary)), color-stop(2%, #fff));
+  background: linear-gradient(to right, var(--bs-primary) 2%, #fff 2%);
+  padding-left: 20px;
+}
+/*# sourceMappingURL=projects.css.map */

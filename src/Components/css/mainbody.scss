@@ -1,0 +1,122 @@
+@media screen and (max-width:720px) {
+    #main_body{
+        height: 100%!important;
+        width: 100%!important;
+        background: linear-gradient(0deg, #e6dace 55%,#fff 55%)!important;
+        #intro_card{
+            grid-template-columns: 1fr!important;
+            width: 90%!important;
+            margin-top: 20px!important;
+            border-radius: 15px!important;
+            .intro_1st{
+                padding: 20px 0px;
+                border: 15px!important;
+                margin: auto!important;
+                width: 100%!important;
+            }
+            .intro_2nd{
+                width: 100%!important;
+                margin: auto!important;
+            }
+        }
+    }
+}
+#main_body{
+    margin-top: 100px;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, #e6dace 40%,#fff 40%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    #intro_card{
+        width: 700px;
+        height: fit-content;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .intro_1st{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background: #f4ece6;
+            box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.116) ;
+            img{
+                border-radius: 50%;
+                margin: auto;
+                width: 200px;
+                height: 200px;
+            }
+            .my_name{
+                font-size: 25px;
+                font-weight: bold;
+                padding: 5px 0px;
+                .hr{
+                    background: var(--bs-primary);
+                    content: "";
+                    height: 2px;
+                    width: 70px;
+                    margin: auto;
+                }
+            }
+            .my_job{
+                font-size: 21px;
+                font-weight: lighter;
+                text-transform: uppercase;
+                padding: 10px 0px;
+                padding-bottom: 30px!important;
+            }
+            .contact{
+                background: #fff;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 25px;
+                    padding: 20px;
+                }
+            }
+        }
+        .intro_2nd{
+            margin: 20px;
+            .big-txt{
+                font-size: 72px;
+                font-weight: bolder;
+            }
+            .intro-txt{
+                font-size: 19px;
+                padding: 20px 0px;
+            }
+            .intro-desc{
+                padding: 20px 0px;
+                font-weight: 30;
+                font-size: 14px;
+            }
+            .intro-btn{
+                padding: 30px 0px;
+                a{
+                    padding: 2px 20px;
+                    border-radius: 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .btn-1{
+                    background-color: var(--bs-primary);
+                    color: #fff;
+                    margin-right: 10px ;
+                }
+                .btn-1:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+                .btn-2{
+                    color: #000;
+                    border: #000 solid;
+                }
+                .btn-2:hover{
+                    color: #fff;
+                    border: var(--bs-primary) solid;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,84 @@
+#resume_body {
+  background-color: #e6dace;
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+#resume_body #resume_cont {
+  margin: auto;
+  width: 700px;
+}
+
+#resume_body #resume_cont .btn-cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: 700px;
+}
+
+#resume_body #resume_cont .btn-cont .btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  font-weight: bolder;
+}
+
+#resume_body #resume_cont .btn-cont .btn:nth-child(2) {
+  margin-right: 0%;
+  margin-left: auto;
+}
+
+#resume_body #resume_cont .resume_label {
+  padding: 50px 20px;
+}
+
+#resume_body #resume_cont .resume_card {
+  padding: 30px;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .cont1 .list_elem li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .cont1 .list_elem li:before {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: -5px;
+  top: calc(50% - 5px);
+  background: var(--bs-primary);
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .cont2 {
+  padding-left: 20px;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .sclName {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .degreeName {
+  font-size: 15px;
+}
+
+#resume_body #resume_cont .resume_card .resume_card_cont .sclLocation {
+  padding-top: 20px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=resume.css.map */
