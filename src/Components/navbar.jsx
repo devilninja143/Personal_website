@@ -28,10 +28,10 @@ class Navbar extends React.Component {
                 </a>
             </div>
             <div id="navbar_menu">
-                <a href="/">about me</a>
-                <a href="/resume">resume</a>
-                <a href="projects">projects</a>
-                <a href="contact">contact</a>
+                <a href="Personal_website/">about me</a>
+                <a href="Personal_website/resume">resume</a>
+                <a href="Personal_website/projects">projects</a>
+                <a href="Personal_website/contact">contact</a>
             </div>
             <button id="hamberger" className="" onClick={this.navbtnOnclick} >
                 <div id="hamberger_mark"></div>
