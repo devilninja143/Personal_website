@@ -8,7 +8,6 @@
 
 #resume_body #resume_cont {
   margin: auto;
-  width: 700px;
 }
 
 #resume_body #resume_cont .btn-cont {
@@ -16,7 +15,6 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  width: 700px;
 }
 
 #resume_body #resume_cont .btn-cont .btn {
@@ -24,7 +22,6 @@
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 20px;
-  font-weight: bolder;
 }
 
 #resume_body #resume_cont .btn-cont .btn:nth-child(2) {
@@ -38,13 +35,6 @@
 
 #resume_body #resume_cont .resume_card {
   padding: 30px;
-}
-
-#resume_body #resume_cont .resume_card .resume_card_cont {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
 }
 
 #resume_body #resume_cont .resume_card .resume_card_cont .cont1 .list_elem li {

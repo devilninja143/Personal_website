@@ -10,6 +10,7 @@
     height: 297mm;
     #personal_info{
         margin: 10px;
+        border-radius: 15px;
         #info_cont{
             flex: 1;
             .border-2{
@@ -17,8 +18,10 @@
                 padding: 10px 0px;
             }
             .sub_info_cont{
+                color: var(--bs-light);
                 svg{
                     vertical-align: -3px!important;
+                    fill: var(--bs-light);
                 }
             }
         }
@@ -26,7 +29,7 @@
     #img_cont{
         img{
             width: 200px;
-            border: 3px var(--bs-primary) solid;
+            border: 3px var(--bs-light) solid;
             border-radius: 50%;
         }
     }
@@ -37,9 +40,9 @@
     .info_value{
         a{
             text-decoration: none;
-            color: var(--bs-secondary);
+            color: var(--bs-light);
         }
-        color: var(--bs-secondary);
+        color: #fff;
     }
 }
 #school_cont{
@@ -53,5 +56,8 @@
         li{
             flex: 1;
         }
+    }
+    .lable-cont{
+        border-radius: 5px;
     }
 }

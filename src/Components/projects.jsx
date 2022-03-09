@@ -11,7 +11,7 @@ class Project extends React.Component {
                 Here is various projects that I worked on. Each of this project Reflect my shill in web & application development.
             </div>
             <div className="col-md-8 bg-light row m-auto mt-5">
-                <div className="col-12 col-md-6 p-5">
+                <div className="col-12 col-md-10 p-5">
                     <div className="col-12 info_card">
                         <div className="col-12 projectName fs-5 fw-bold text-primary">CV Creating Website</div>
                         <a href="" className="col-12 websiteLink text-decoration-none text-dark fw-bold">http://example.com</a>
@@ -20,8 +20,6 @@ class Project extends React.Component {
                         This is a CV creating website. Its website that can help anyone create a perfect cv without much hassel. 😂
                     </p>
                 </div>
-                <div className="col-12 col-md-6">hello2</div>
-
             </div>
         </div>;
     }

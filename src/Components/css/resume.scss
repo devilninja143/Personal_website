@@ -8,11 +8,9 @@
         .btn-cont{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            width: 700px;
             .btn{
                 width: fit-content;
                 border-radius: 20px;
-                font-weight: bolder;
             }
             .btn:nth-child(2){
                 margin-right: 0%;
@@ -20,15 +18,12 @@
             }
         }
         margin: auto;
-        width: 700px;
         .resume_label{
             padding: 50px 20px;
         }
         .resume_card{
             padding: 30px;
             .resume_card_cont{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
                 .cont1{
                     .list_elem{
                         li{
