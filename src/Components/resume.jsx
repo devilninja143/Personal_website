@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "./css/resume.css"
@@ -8,8 +9,8 @@ class Resume extends React.Component {
         return <div id="resume_body">
             <div id="resume_cont" className='col-12 col-md-10'>
                 <div className="btn-cont pt-5 px-3">
-                    <a href="" className="btn btn-primary">Visit Linkedin Profile</a>
-                    <a href="/cv" className="btn btn-primary">View & Download CV</a>
+                    <a href="https://www.linkedin.com/in/nurul-hafiz-likhon-991b09204/" className="btn btn-primary">Visit Linkedin Profile</a>
+                    <Link to="/Personal_website/cv" className="btn btn-primary">View & Download CV</Link>
                 </div>
                 <h2 className="resume_label">Education</h2>
                 <div className="resume_card bg-white">
@@ -44,7 +45,7 @@ class Resume extends React.Component {
                     <h3 className="resume_card_year_label text-dark">Professional skillset</h3>
                     <div className="resume_card_cont">
                         <div className="cont1">
-                            <div class="row list_elem">
+                            <div className="row list_elem">
                                 <div className="col-md-6"><li>HTML5</li></div><div className="col-md-6"><li>CSS3</li></div>
                                 <div className="col-md-6"><li>JAVASCRIPT</li></div><div className="col-md-6"><li>PYTHON</li></div>
                                 <div className="col-md-6"><li>DJANGO</li></div><div className="col-md-6"><li>REACT.JS</li></div>
@@ -56,7 +57,7 @@ class Resume extends React.Component {
                     <h3 className="resume_card_year_label text-dark">Language Skill</h3>
                     <div className="resume_card_cont">
                         <div className="cont1">
-                            <div class="row list_elem">
+                            <div className="row list_elem">
                                 <div className="col-md-6"><li>English (Native)</li></div><div className="col-md-6"><li>Bangla (Proficient)</li></div>
                             </div>
                         </div>

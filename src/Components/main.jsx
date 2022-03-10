@@ -34,17 +34,13 @@ class Main extends React.Component {
                 {/* Navigation Bar */}
                 <Navbar/>
                 <Routes>
-                    <Route exact path="/Personal_website/" element={<Body/>}/>
+                    <Route exact path="Personal_website/" element={<Body/>}/>
                     <Route exact path="Personal_website/resume" element={<Resume/>}/>
                     <Route exact path="Personal_website/projects" element={<Project api={this.state.project}/>}/>
                     <Route exact path="Personal_website/contact" element={<Contact/>}/>
-                </Routes>
-                <Footer/>
-            </Router>
-            <Router>
-                <Routes>
                     <Route exact path="Personal_website/cv" element={<CV/>}/>
                 </Routes>
+                <Footer/>
             </Router>
         </div>
         );
