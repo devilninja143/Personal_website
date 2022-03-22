@@ -18,9 +18,9 @@ class Body extends React.Component {
                     </div>
                     <div className="my_job">Freelancer</div>
                     <div className="contact">
-                        <a href=""><Facebook/></a>
-                        <a href=""><Twitter/></a>
-                        <a href=""><Linkedin/></a>
+                        <a href="https://www.facebook.com/nurulhafiz.likhon/"><Facebook/></a>
+                        <a href="https://twitter.com/NHLikhon143"><Twitter/></a>
+                        <a href="https://www.linkedin.com/in/nurul-hafiz-likhon-991b09204/"><Linkedin/></a>
                     </div>
                 </div>
                 <div className="intro_2nd">
@@ -28,8 +28,8 @@ class Body extends React.Component {
                         <div className="big-txt">Hello</div>
                         <div className="intro-txt">Here's things about me and my work</div>
                         <div className="intro-btn">
-                            <Link to="/Resume" className="btn btn-outline-primary border-2 btn-1">RESUME</Link>
-                            <Link to="/Projects" className="btn btn-outline-primary border-2 btn-2">PROJECTS</Link>
+                            <Link to="resume" className="btn btn-outline-primary border-2 btn-1">RESUME</Link>
+                            <Link to="projects" className="btn btn-outline-primary border-2 btn-2">PROJECTS</Link>
                         </div>
                         <div className="intro-desc">
                         I have created many websites and improved myself with each project. I can create any kind of website with enough information. You can give me any PSD or Website as a reference. I am looking forward to working with you.

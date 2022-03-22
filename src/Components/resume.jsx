@@ -9,8 +9,8 @@ class Resume extends React.Component {
         return <div id="resume_body">
             <div id="resume_cont" className='col-12 col-md-10'>
                 <div className="btn-cont pt-5 px-3">
-                    <a href="https://www.linkedin.com/in/nurul-hafiz-likhon-991b09204/" className="btn btn-primary">Visit Linkedin Profile</a>
-                    <Link to="/Personal_website/cv" className="btn btn-primary">View & Download CV</Link>
+                    <a href="https://www.linkedin.com/in/nurul-hafiz-likhon-991b09204/" className="btn btn-primary">Linkedin</a>
+                    <Link to="/Personal_website/cv" className="btn btn-primary">Full CV</Link>
                 </div>
                 <h2 className="resume_label">Education</h2>
                 <div className="resume_card bg-white">

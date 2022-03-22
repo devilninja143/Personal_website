@@ -22,9 +22,9 @@ class Footer extends React.Component {
                 <div className="footer_section3">
                     <div className="footer_label3">Follow</div>
                     <div className="footer_cont3">
-                        <a href=""><Facebook/></a>
-                        <a href=""><Twitter/></a>
-                        <a href=""><Linkedin/></a>
+                        <a href="https://www.facebook.com/nurulhafiz.likhon/"><Facebook/></a>
+                        <a href="https://twitter.com/NHLikhon143"><Twitter/></a>
+                        <a href="https://www.linkedin.com/in/nurul-hafiz-likhon-991b09204/"><Linkedin/></a>
                     </div>
                 </div>
             </div>
