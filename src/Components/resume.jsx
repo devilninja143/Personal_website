@@ -18,7 +18,7 @@ class Resume extends React.Component {
                     <div className="resume_card_cont row">
                         <div className="cont1 col-12 col-md-6">
                             <div className="sclName">Monipur Highschool & College</div>
-                            <div className="degreeName">Senior School Certificate</div>
+                            <div className="degreeName">Secondary School Certificate</div>
                             <div className="sclLocation">Ibrahimpur, Mirpur-14, Dhaka, Bangladesh</div>
                         </div>
                         <div className="cont2 col-12 col-md-6">
@@ -58,7 +58,7 @@ class Resume extends React.Component {
                     <div className="resume_card_cont">
                         <div className="cont1">
                             <div className="row list_elem">
-                                <div className="col-md-6"><li>English (Native)</li></div><div className="col-md-6"><li>Bangla (Proficient)</li></div>
+                                <div className="col-md-6"><li>English (Fluent)</li></div><div className="col-md-6"><li>Bangla (Proficient)</li></div>
                             </div>
                         </div>
                     </div>

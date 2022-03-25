@@ -35,7 +35,7 @@
     }
     .label{
         font-weight: bold;
-        color: var(--bs-primary);
+        color: var(#184b83);
     }
     .info_value{
         a{
@@ -60,4 +60,10 @@
     .lable-cont{
         border-radius: 5px;
     }
+}
+.bg-main{
+    background-color: #184b83;
+}
+.text-highlight{
+    color: #184b83;
 }

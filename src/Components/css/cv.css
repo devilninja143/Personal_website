@@ -45,7 +45,7 @@
 
 .cv_cont .label {
   font-weight: bold;
-  color: var(--bs-primary);
+  color: var(#184b83);
 }
 
 .cv_cont .info_value {
@@ -75,5 +75,13 @@
 
 .skills_cont .lable-cont {
   border-radius: 5px;
+}
+
+.bg-main {
+  background-color: #184b83;
+}
+
+.text-highlight {
+  color: #184b83;
 }
 /*# sourceMappingURL=cv.css.map */

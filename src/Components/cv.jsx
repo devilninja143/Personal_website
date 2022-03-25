@@ -8,22 +8,25 @@ class CV extends Component {
 
     state = {  } 
     componentDidMount(){
-        document.getElementById("navbar").style.display = "none";
-        document.getElementById("footer").style.display = "none";
-    }
-    download = ()=>{
-        alert("Btn Clicked");
+        if(window.location.pathname=="/Personal_website/cv"){
+            document.getElementById("navbar").classList.add("d-none");
+            document.getElementById("footer").classList.add("d-none");
+        }
+        else{
+            document.getElementById("navbar").classList.remove("d-none");
+            document.getElementById("footer").classList.remove("d-none");
+        }
     }
     ref = React.createRef();
     render() { 
         return (
             <React.Fragment>
                 <div className="cv_cont p-2 border" ref={this.ref}>
-                    <div id="personal_info" className="col-auto p-3 d-flex bg-primary">
+                    <div id="personal_info" className="col-auto p-3 d-flex bg-main">
                         <div id="info_cont" className=' d-flex'>
                             <div className="m-auto row col-11">
                                 <div className="col-12 fs-2 text-light p-0 text-uppercase">Nurul Hafiz Likhon</div>
-                                <div className="col-12 border border-2 border-primary row m-auto">
+                                <div className="col-12 row m-auto">
                                     <div className="sub_info_cont col-12 d-flex">
                                         <div className="label"><ClockFill /></div><div className="info_value px-2">Age: 21</div>
                                     </div>
@@ -44,28 +47,28 @@ class CV extends Component {
                         </div>
                     </div>
                     <div className="col-11 px-2 pb-2 m-auto d-flex">
-                        <h4 className='text-uppercase mb-0 m-auto'>Profile</h4><hr width="100%" className='m-auto mx-2' /><h4 className='mb-0 m-auto'><PersonCircle/></h4>
+                        <h4 className='text-uppercase my-3 m-auto'>Profile</h4><hr width="100%" className='m-auto mx-2' /><h4 className='mb-0 m-auto'><PersonCircle/></h4>
                     </div>
                     <div id="object_cont" className='col-11 m-auto d-flex'>
-                        <h4 className="text-uppercase text-primary px-3">Objective:</h4>
+                        <h4 className="text-uppercase text-highlight px-3">Objective:</h4>
                         <p className="col-8">I like to gain more professional knowledge by working with Professional's and emprove myself as a developer as a person.</p>
                     </div>
                     <div id="experience_cont" className='col-11 m-auto d-flex'>
-                        <h4 className="text-uppercase text-primary px-3">Experience:</h4>
-                        <p className="col-8">
+                        <h4 className="text-uppercase text-highlight px-3">Experience:</h4>
+                        <div className="col-8 mr-2">
                             <div className="label text-dark">Freelancer|Fiverr,Mirpur,Dhaka</div>
                             <div className="text-secondary">Oct 2019 - Present</div>
                             <div className="text-dark">I am Still working as a Freelancer.</div>
-                        </p>
+                        </div>
                     </div>
                     <div className="col-11 px-2 pb-2 m-auto d-flex">
-                        <h4 className='text-uppercase mb-0 m-auto'>Education</h4><hr width="100%" className='m-auto mx-2' /><h4 className='mb-0 m-auto'><BookFill/></h4>
+                        <h4 className='text-uppercase my-3 m-auto'>Education</h4><hr width="100%" className='m-auto mx-2' /><h4 className='mb-0 m-auto'><BookFill/></h4>
                     </div>
                     <div id="school_cont" className='col-11 m-auto d-flex'>
-                        <h5 className="text-uppercase text-primary px-3">School/College:</h5>
-                        <p className="col-8">
+                        <h5 className="text-uppercase text-highlight px-3">School/College:</h5>
+                        <div className="col-8 mr-2">
                             <div className="edu_cont">
-                                <div className="label text-dark">S.S.C|Monipur High School and College,Ibrahimpur, Mirpur-14,Dhaka-1216</div>
+                                <div className="label text-dark">S.S.C|Monipur High School and College, Mirpur,Dhaka-1206</div>
                                 <div className="text-secondary">2017 - 2018</div>
                                 <div className="text-secondary">Grade: 4.61 / 5.00</div>
                                 <div className="text-secondary">Science</div>
@@ -73,17 +76,17 @@ class CV extends Component {
                             <div className="edu_cont">
                                 <div className="label text-dark">Diploma|Graphics Art Institute, Mohammadpur, Mirpur, Dhaka</div>
                                 <div className="text-secondary">2019 - Present</div>
-                                <div className="text-secondary">Grade: 2.94 / 4.00</div>
-                                <div className="text-secondary">Computer</div>
+                                <div className="text-secondary">Grade: 3.53 / 4.00(Present Grade)</div>
+                                <div className="text-secondary">Computer(Diploma)</div>
                             </div>
-                        </p>
+                        </div>
                     </div>
                     <div className="col-11 px-2 pb-2 m-auto d-flex">
                         <h4 className='text-uppercase mb-0 m-auto'>Skills</h4><hr width="100%" className='m-auto mx-2' /><h4 className='mb-0 m-auto'><BriefcaseFill/></h4>
                     </div>
                     <div className="col-11 m-auto row skills_cont">
                         <div className="col-12">
-                            <h4 className="text-primary text-uppercase mb-0 bg-primary text-light ps-3 lable-cont">Programming Skills</h4>
+                            <h4 className="text-highlight text-uppercase mb-0 bg-main text-light ps-3 lable-cont">Programming Skills</h4>
                             <ol className="col-12 text-start">
                                 <li className=''>HTML</li>
                                 <li className=''>CSS</li>
@@ -93,16 +96,16 @@ class CV extends Component {
                             </ol>
                         </div>
                         <div className="col-12">
-                            <h4 className="text-primary text-uppercase mb-0 bg-primary text-light ps-3 lable-cont">Language</h4>
+                            <h4 className="text-highlight text-uppercase mb-0 bg-main text-light ps-3 lable-cont">Language</h4>
                             <ol className="col-12 text-start">
                                 <li className='col-6'>BANGLA(Proficient)</li>
-                                <li className='col-6'>ENGLISH(Native)</li>
+                                <li className='col-6'>ENGLISH(Fluent)</li>
                             </ol>
                         </div>
                         <div className="col-12">
-                            <h4 className="text-primary text-uppercase mb-0 bg-primary text-light ps-3 lable-cont">Hobbies</h4>
+                            <h4 className="text-highlight text-uppercase mb-0 bg-main text-light ps-3 lable-cont">Hobbies</h4>
                             <p className="col-12 text-start">
-                                &emsp;I a like building various Web-Application and Games.
+                                &emsp;I like building various Web-Application and Games.
                             </p>
                         </div>
                     </div>
